@@ -118,7 +118,7 @@ Note: Resampled atlases are used for the Jacobian files due to the difference in
 
 1. Z-score files *(r\_\* C0divC1\_zscore.nii.gz, r\_\* C2divC1\_zscore.nii.gz, and mask\_ja\_\*\_zscore.nii.gz*)
 1. t-test file (*\*\_vs\_wt\_roi\_ttest\_C0divC1.nii.gz, \*\_vs\_wt\_roi\_ttest\_C2divC1.nii.gz,  \*\_vs\_wt\_volume\_ttest.nii.gz)*
-1. Z-brain binary files (*Zbrain\_binary\_mask\_rsp\_roi.nii.gz, Zbrain\_binary\_mask\_rsp.nii.gz*)
+1. Zbrain binary files (*Zbrain\_binary\_mask\_rsp\_roi.nii.gz, Zbrain\_binary\_mask\_rsp.nii.gz*)
 1. Residual files (*\*\_vs\_wt\_\*\_roi\_resid\_C0divC1.nii.gz, \*\_vs\_wt\_\*\_roi\_resid\_C2divC1.nii.gz, \*\_vs\_wt\_\*\_volume\_resid.nii.gz*)
 1. **3DFWHMx** Regression Plot file (*3dFWHMx.1D.png*)
 1. **3DFWHMx** Regression Plot autocorrelation data *(\*\_3dFWHMx.1D*)
