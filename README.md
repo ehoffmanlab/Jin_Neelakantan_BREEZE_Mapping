@@ -69,14 +69,14 @@ Note: The following set of code has been designed for use with the Slurm Workloa
 
 1. Registered files (*r\_\*optfixed.nii.gz* for C0, C1, C2 markers)
 1. Geometric transformation C1 file (*standard\*.bisxform*)
-1. Divided files (*r\_\*C0divC1.nii.gz*, *r\_\*C2divC1.nii.gz* )
+1. Divided files (*r\_\*C0divC1.nii.gz*, *r\_\*C2divC1.nii.gz*)
 1. Jacobian files (*mask\_ja\_\*.nii.gz* and *ja\_\*.nii.gz*)
 
 **III) Quantification**
 
 **Required User Input Files**
 
-1. Divided files (*r\_\*C0divC1.nii.gz, r\_\*C2divC1.nii.gz* )
+1. Divided files (*r\_\*C0divC1.nii.gz, r\_\*C2divC1.nii.gz*)
 1. Jacobian files (*mask\_ja\_\*.nii.gz* and *ja\_\*.nii.gz*)
 1. 8 region atlas (*Zbrain\_atlas\_8region.nii.gz*)
 1. Resampled 8 region atlas (*Zbrain\_atlas\_8region\_rsp.nii.gz*)
@@ -118,8 +118,8 @@ Note: Resampled atlases are used for the Jacobian files due to the difference in
 
 1. Z-score files *(r\_\* C0divC1\_zscore.nii.gz, r\_\* C2divC1\_zscore.nii.gz, and mask\_ja\_\*\_zscore.nii.gz*)
 1. t-test file (*\*\_vs\_wt\_roi\_ttest\_C0divC1.nii.gz, \*\_vs\_wt\_roi\_ttest\_C2divC1.nii.gz,  \*\_vs\_wt\_volume\_ttest.nii.gz)*
-1. Z-brain binary files (*Zbrain\_binary\_mask\_rsp\_roi.nii.gz, Zbrain\_binary\_mask\_rsp.nii.gz* )
-1. Residual files (*\*\_vs\_wt\_\*\_roi\_resid\_C0divC1.nii.gz, \*\_vs\_wt\_\*\_roi\_resid\_C2divC1.nii.gz, \*\_vs\_wt\_\*\_volume\_resid.nii.gz* )
+1. Z-brain binary files (*Zbrain\_binary\_mask\_rsp\_roi.nii.gz, Zbrain\_binary\_mask\_rsp.nii.gz*)
+1. Residual files (*\*\_vs\_wt\_\*\_roi\_resid\_C0divC1.nii.gz, \*\_vs\_wt\_\*\_roi\_resid\_C2divC1.nii.gz, \*\_vs\_wt\_\*\_volume\_resid.nii.gz*)
 1. **3DFWHMx** Regression Plot file (*3dFWHMx.1D.png*)
 1. **3DFWHMx** Regression Plot autocorrelation data *(\*\_3dFWHMx.1D*)
 1. Frame 1 files (*\*roi\_ttest\_Frame\_001\_C0divC1.nii.gz, \*roi\_ttest\_Frame\_001\_C2divC1.nii.gz, and \*volume\_Frame\_001.nii.gz)*
